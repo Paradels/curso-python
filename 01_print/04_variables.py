@@ -26,3 +26,11 @@ print(type(name))
 #f-strings ( formatted strings ) (literal de cadena de formato)
 print(f"Hola {my_name}, tienes {age } años.")
 
+#Convenciones de variables
+# - No usar palabras reservadas ( if, else, for, while, def, return)
+
+mi_nombre_de_variable = "Luis" #snake_case
+
+MiNombreDeVariable = "Luis" #PascalCase (No usar)
+
+MI_CONSTANTE = 3.1416 #Mayusculas y guion bajo (constantes)( aunque no existen constantes en python )
