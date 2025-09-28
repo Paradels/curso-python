@@ -34,3 +34,4 @@ mi_nombre_de_variable = "Luis" #snake_case
 MiNombreDeVariable = "Luis" #PascalCase (No usar)
 
 MI_CONSTANTE = 3.1416 #Mayusculas y guion bajo (constantes)( aunque no existen constantes en python )
+
