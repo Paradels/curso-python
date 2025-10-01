@@ -48,12 +48,8 @@ def eliminar_producto(lista):
 
 def main():
     lista_compras = []
-    # while True:
-    #     mostrar_menu()
-    #     opcion = input("Elige una opción: ")
-    activo = True  # flag de control
 
-    while activo:
+    while True:
         mostrar_menu()
         opcion = input("Elige una opción: ")
 
@@ -66,9 +62,9 @@ def main():
                 eliminar_producto(lista_compras)
             case "4":
                 print("¡Adiós!")
-                break
+                break  # Salimos del bucle
             case _:
-                print(" Opción no válida. Intenta de nuevo.")
+                print("Opción no válida. Intenta de nuevo.")
 
 
 # Ejecutar programa
