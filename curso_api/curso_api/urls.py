@@ -1,5 +1,5 @@
 """
-URL configuration for mi_proyecto project.
+URL configuration for curso_api project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -19,7 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hola/', ...),                 # lo que ya tenías
-    path('api/', include('api.urls')),  # <<--- agregado
+    path('api/', include('api.urls')),
 ]
-
